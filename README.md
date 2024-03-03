@@ -5,9 +5,9 @@ This project focuses on the classification of animal sounds using deep learning.
 The dataset used for training is a subset of the ESC-50 dataset, specifically filtered to include only animal sound categories such as dog, cat, rooster, and more. This filtered dataset allows for a more focused approach to animal sound classification.
 
 
-<center>
+<p align="center">
 <img src="images/audio_classification.webp" width="450" alt="Animal Sound">
-</center>
+</p>
 
 ## Project Structure
 
@@ -27,7 +27,7 @@ To set up this project, follow these steps:
 
 2. Navigate to the project directory:
     ```bash
-    cd Audio_CLassification_Finetuning
+    cd Audio_Classification_Finetuning
     ```
 
 
@@ -49,7 +49,7 @@ Then, you can train the model by running:
    ```
 
 ## Hugging Face Model
-The fine-tuned model is available on HUgging Face and can be accessed through the following link:
+The fine-tuned model is available on Hugging Face and can be accessed through the following link:
 [Animal Sound Classification](https://huggingface.co/ardneebwar/wav2vec2-animal-sounds-finetuned-hubert-finetuned-animals)
 
-You can use this model directly from HUgging Face Model Hub for audio classification tasks involving the identified animal sounds. 
+You can use this model directly from Hugging Face Model Hub for audio classification tasks involving the identified animal sounds. 
