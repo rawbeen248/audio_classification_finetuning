@@ -1,0 +1,7 @@
+pandas
+torch
+librosa
+transformers
+scikit-learn
+huggingface_hub
+numpy
