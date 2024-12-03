@@ -2,7 +2,7 @@
 
 This project focuses on the classification of animal sounds using deep learning. The core idea is to utilize audio processing techniques and a fine-tuned version of the hubert-base-ls960 model to accurately classify different animal sounds. This application could serve various purposes, from ecological monitoring to educational software.
 
-The dataset used for training is a subset of the ESC-50 dataset, specifically filtered to include only animal sound categories such as dog, cat, rooster, and more. This filtered dataset allows for a more focused approach to animal sound classification.
+The dataset used for training is a subset of the ESC-50 dataset, specifically filtered to include only animal sound categories such as dogs, roosters, pigs, cows, frogs, cats, hens, insects, sheep, and crows. This filtered dataset allows for a more focused approach to animal sound classification.
 
 
 <p align="center">
@@ -52,4 +52,6 @@ Then, you can train the model by running:
 The fine-tuned model is available on Hugging Face and can be accessed through the following link:
 [Animal Sound Classification](https://huggingface.co/ardneebwar/wav2vec2-animal-sounds-finetuned-hubert-finetuned-animals)
 
-You can use this model directly from Hugging Face Model Hub for audio classification tasks involving the identified animal sounds. 
+To try this model on Hugging Face Spaces: [Animal Sound Classification Spaces ](https://huggingface.co/spaces/ardneebwar/animals-sounds-classifier)
+
+You can use this model directly from Hugging Face Spaces for audio classification tasks involving the identified animal sounds. 
